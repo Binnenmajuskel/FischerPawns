@@ -170,7 +170,8 @@ public class FischerPawns {
   }
 
   private static void printThreePawnPositions(Map<String, int[]> allStartingPositions) {
-    System.out.println("\nFour Positions with three unprotected pawns:\n");
+    System.out.println("\nFour Positions with three unprotected pawns:");
+    System.out.println("(unprotected pawns highlighted)\n");
     for (Map.Entry<String, int[]> entry : allStartingPositions.entrySet()) {
       int sum = IntStream.of(entry.getValue()).sum();
       if (sum == 3) {
