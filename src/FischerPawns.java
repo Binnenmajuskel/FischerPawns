@@ -191,6 +191,7 @@ public class FischerPawns {
     }
     String pawnString = Arrays.toString(pawnArray).replace(',', ' ');
     String pieceString = Arrays.toString(pieceArray).replace(',', ' ');
+    System.out.println("String: \"" + position + "\"");
     System.out.println(pawnString + "\n" + pieceString + "\n");
   }
 
